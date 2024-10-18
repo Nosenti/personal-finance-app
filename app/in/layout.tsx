@@ -11,7 +11,7 @@ export default function layout({ children }: LayoutProps) {
       <aside className='h-full'>
         <Sidebar />
       </aside>
-      <main className='h-full p-6'>
+      <main className='flex-1 h-full p-6'>
         {children}
       </main>
     </div>

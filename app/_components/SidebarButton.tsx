@@ -21,7 +21,7 @@ export default function SidebarButton({
   return (
     <Link
       href={path}
-      className={`flex items-center w-[89%] ${
+      className={`flex items-center w-[85%] ${
         isMinimized ? 'justify-center' : 'space-x-4 px-4'
       } py-3 rounded-r-md cursor-pointer w-full border-l-4 border-primary ${
         isActive
