@@ -48,7 +48,7 @@ const columns: ColumnDef<{
 		cell: ({ row }) => (
 			<div className='flex gap-2 items-center'>
 				<Image
-					src={`/${row.original.avatar}`}
+					src={row.original.avatar}
 					width={50}
 					height={50}
 					alt={row.original.name}
@@ -115,7 +115,7 @@ const columnsMobile: ColumnDef<{
 				<div className='flex flex-col gap-2'>
 					<span className='flex gap-3 items-center'>
 						<Image
-							src={`/${row.original.avatar}`}
+							src={row.original.avatar}
 							width={30}
 							height={30}
 							alt={row.original.name}
