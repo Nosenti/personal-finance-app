@@ -127,7 +127,7 @@ export default function page() {
 									>
 										<span className='w-[10%]'>
 											<Image
-												src={`/${t.avatar}`}
+												src={t.avatar}
 												width={50}
 												height={50}
 												alt={t.name}
